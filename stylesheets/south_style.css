@@ -1,0 +1,168 @@
+a {
+  color: #e16300;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  color: #4a413a;
+  background: #fff;
+}
+
+h1, h2 {
+   color: #e16300;
+}
+
+h1 a {
+  color: #e16300;
+}
+
+h3 {
+  color: #e16300;
+}
+
+#langmenu {
+  background: url('../images/south_langmenu.gif?1') no-repeat top left;
+  /*border-bottom: 83px solid #053c66;*/
+}
+
+      
+      #langmenu li a.active {
+        color: #ed8330;
+      }
+
+#mainmenu a {
+  color: #6b6b6b;
+  font-weight: bold;
+  text-decoration: none;
+background: white;
+}
+
+#mainmenu a:hover {
+  text-decoration: underline;
+}
+
+#mainmenu a.active {
+  color: #ed8330;
+}
+
+#header {
+  background: #ed8330;
+  font-weight: bold;
+color: white;
+}
+
+
+.newstable td.first {
+  color: #4a413a;
+font-weight: bold;
+}
+
+.newstable a {
+  color: #4a413a;
+text-decoration: none;
+}
+.newstable a:hover {
+text-decoration: underline;
+}
+
+
+#container {
+  border-bottom: 6px solid #f0a870;
+}
+
+.blog {
+  border-bottom: 6px solid #f0a870;
+}
+
+.blog-last {
+  background: none;
+}
+
+.blog span.date {
+  color: #e16300;
+}
+
+* html .blog-last {
+  border-bottom: none;
+}
+
+.textbox {
+  background: white url('../images/searchbox_bg.gif?1') repeat-x top;
+}
+
+.comments table td {
+  border-bottom: 1px solid #020e18;
+}
+
+.comments table td.first {
+  color: #e16300;
+  border-bottom: none;
+}
+
+#commentform {
+  background: #f0a870;
+}
+
+#commentform h3 {
+  color: #E16300;
+  font-weight: bold;
+}
+
+.textbox {
+  border: none;
+  color: #000101;
+}
+
+.submit {
+  background: #e16300;
+  color: #fff;
+border: none;
+}
+
+#edicy a {
+  color: #328bcf;
+}
+#search {
+background: #ed8330; 
+height: 50px;
+padding-top: 25px;
+text-align: center;
+color: #fff;
+}
+
+#search input#onpage_search {
+border: 1px solid #df7929; 
+height: 19px; 
+width: 202px; 
+margin: 0px 0 0 0;
+background: white url('../images/searchbox_bg.gif?1') repeat-x top;
+padding-left: 2px;
+vertical-align: middle;
+}
+#search input.search-submit {
+border: none;
+width: 9px;
+height: 12px;
+background: url('../images/south_lyon-search-submit.gif?1') no-repeat;
+margin: 0px 0 0 3px;
+vertical-align: middle;
+}
+#container-left-inner, #container-right-inner {
+background: url('../images/south_shadow.png?1') repeat-x top;
+min-height: 44px;
+}
+#footer, #edicy a {
+color: #e16300;
+}
+ #blogandnews #container-left-inner {
+  padding: 0;
+}
+body .add-article {
+  margin-top: 15px;
+  display: inline-block !important;
+  text-decoration: none;
+}

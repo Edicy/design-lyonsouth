@@ -1,0 +1,117 @@
+{
+  "assets": [
+    {
+      "filename": "south_style.css",
+      "file": "stylesheets/south_style.css",
+      "kind": "stylesheets",
+      "content_type": "text/css"
+    },
+    {
+      "filename": "south_langmenu.gif",
+      "file": "images/south_langmenu.gif",
+      "kind": "images",
+      "content_type": "image/gif"
+    },
+    {
+      "filename": "south_lyon-search-submit.gif",
+      "file": "images/south_lyon-search-submit.gif",
+      "kind": "images",
+      "content_type": "image/gif"
+    },
+    {
+      "filename": "south_shadow.png",
+      "file": "images/south_shadow.png",
+      "kind": "images",
+      "content_type": "image/png"
+    },
+    {
+      "filename": "layout.css",
+      "file": "stylesheets/layout.css",
+      "kind": "stylesheets",
+      "content_type": "text/css"
+    },
+    {
+      "filename": "searchbox_bg.gif",
+      "file": "images/searchbox_bg.gif",
+      "kind": "images",
+      "content_type": "image/gif"
+    }
+  ],
+  "preview_medium": "http://static.edicy.com/designs/previews/lyon-south_medium.png",
+  "author": "Tajo Oja",
+  "layouts": [
+    {
+      "title": "Langmenu",
+      "file": "components/langmenu.tpl",
+      "layout_name": "",
+      "component": true,
+      "content_type": "component"
+    },
+    {
+      "title": "News",
+      "file": "components/news.tpl",
+      "layout_name": "",
+      "component": true,
+      "content_type": "component"
+    },
+    {
+      "title": "Common page",
+      "file": "layouts/common_page.tpl",
+      "layout_name": "page_default",
+      "component": false,
+      "content_type": "page"
+    },
+    {
+      "title": "Mainmenu",
+      "file": "components/mainmenu.tpl",
+      "layout_name": "",
+      "component": true,
+      "content_type": "component"
+    },
+    {
+      "title": "Blog & News",
+      "file": "layouts/blog___news.tpl",
+      "layout_name": "blog_front",
+      "component": false,
+      "content_type": "blog"
+    },
+    {
+      "title": "Blog Article",
+      "file": "layouts/blog_article.tpl",
+      "layout_name": "blog_article",
+      "component": false,
+      "content_type": "blog_article"
+    },
+    {
+      "title": "Submenu",
+      "file": "components/submenu.tpl",
+      "layout_name": "",
+      "component": true,
+      "content_type": "component"
+    },
+    {
+      "title": "SiteHeader",
+      "file": "components/siteheader.tpl",
+      "layout_name": "",
+      "component": true,
+      "content_type": "component"
+    },
+    {
+      "title": "Front page",
+      "file": "layouts/front_page.tpl",
+      "layout_name": "page_front",
+      "component": false,
+      "content_type": "page"
+    },
+    {
+      "title": "JS",
+      "file": "components/js.tpl",
+      "layout_name": "",
+      "component": true,
+      "content_type": "component"
+    }
+  ],
+  "preview_small": "http://static.edicy.com/designs/previews/lyon-south_small.jpg",
+  "name": "Lyon (South)",
+  "description": "Lyon South"
+}
