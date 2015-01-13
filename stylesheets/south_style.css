@@ -24,6 +24,26 @@ h3 {
   color: #e16300;
 }
 
+/* Editable content image */
+.edy-positionable-container-left {
+  margin-right: 15px;
+}
+.edy-positionable-container-right {
+  margin-left: 15px;
+}
+.edy-image-container-with-title:after {
+  display: block;
+  padding: 4px;
+  font-size: 10px;
+  line-height: 1.3em;
+  content: attr(data-title);
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
 #langmenu {
   background: url('../images/south_langmenu.gif?1') no-repeat top left;
   /*border-bottom: 83px solid #053c66;*/
