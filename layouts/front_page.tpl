@@ -23,7 +23,7 @@
        <div id="container-left-inner">
          <div id="container-left-inner2" class="clearfix">
          {% include "Submenu" %}
-         {% content %}
+         <div data-search-indexing-allowed="true">{% content %}</div>
          </div>
        </div> <!-- //container-left-inner -->
        

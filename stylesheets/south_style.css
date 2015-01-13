@@ -171,6 +171,9 @@ background: url('../images/south_lyon-search-submit.gif?1') no-repeat;
 margin: 0px 0 0 3px;
 vertical-align: middle;
 }
+.voog-search-modal {
+  text-align: left;
+}
 #container-left-inner, #container-right-inner {
 background: url('../images/south_shadow.png?1') repeat-x top;
 min-height: 44px;

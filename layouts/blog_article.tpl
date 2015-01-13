@@ -30,9 +30,9 @@
           
           <div class="blog-inner clearfix">
             
-            {% editable article.excerpt %}
+            <div data-search-indexing-allowed="true">{% editable article.excerpt %}</div>
             <div id="articlebody">
-              {% editable article.body %}
+              <div data-search-indexing-allowed="true">{% editable article.body %}</div>
             </div>
             
           </div>

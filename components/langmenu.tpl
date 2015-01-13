@@ -20,7 +20,7 @@
 
 
 <div id="search">
-{% if site.search.enabled %}<form action="">
+{% if site.search.enabled %}<form action="" class="edys-search">
 <div><strong>{{ "search" |lc }}:&nbsp;</strong><input type="text" id="onpage_search"/><input type="submit" class="search-submit" value="" /></div>
 </form>{% endif %}
 </div>
