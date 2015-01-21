@@ -39,7 +39,7 @@
 </div>
      </div> <!-- //container-left -->
      
-     <div id="container-right">
+     <div id="container-right" class="clearfix">
        
              {% include "Langmenu" %}
        
