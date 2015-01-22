@@ -28,11 +28,11 @@
 </div>
                 <span class="date">{{ article.created_at | format_date:"short" }}</span>&nbsp;&nbsp;<span class="blog-info">{{ article.author.name }}. {{"comments_for_count"|lc}}: <span class="edy-site-blog-comments-count">{{ article.comments_count }}</span></span>
           
-          <div class="blog-inner clearfix">
+          <div class="blog-inner clearfix content-hyphenate" data-search-indexing-allowed="true">
             
-            <div data-search-indexing-allowed="true">{% editable article.excerpt %}</div>
+            {% editable article.excerpt %}
             <div id="articlebody">
-              <div data-search-indexing-allowed="true">{% editable article.body %}</div>
+              {% editable article.body %}
             </div>
             
           </div>
@@ -43,7 +43,7 @@
           
           <table>
             {% for comment in article.comments %}
-            <tr class="edy-site-blog-comment">
+            <tr class="edy-site-blog-comment content-hyphenate">
               <td class="first">{{ comment.author }} {% removebutton %}</td>
               <td{% if forloop.last == true %} class="noborder"{% endif %}>{{ comment.body }} <span class="date">{{ comment.created_at | format_date:"long" }}</span></td>
             </tr>
@@ -101,7 +101,7 @@
      
    </div> <!-- //container -->
    
-   <div id="footer" class="clearfix">
+   <div id="footer" class="clearfix content-hyphenate">
             <div id="edicy">{% loginblock %}{{ "footer_login_link" | lc }}{% endloginblock %}</div>
      {% content name="footer" xpage="true" %}
    </div> <!-- //footer -->

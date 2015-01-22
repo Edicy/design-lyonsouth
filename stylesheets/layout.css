@@ -25,6 +25,14 @@ white-space: normal;
   height: 1px;
 }
 
+.content-hyphenate {
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
 p {
   margin: 0;
   padding: 0;
