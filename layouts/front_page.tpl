@@ -33,7 +33,7 @@
        
              {% include "Langmenu" %}
        
-       <div id="container-right-inner content-hyphenate">
+       <div id="container-right-inner" class="content-hyphenate">
          
          {% include "News" %}
           
