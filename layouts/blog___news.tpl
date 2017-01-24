@@ -44,9 +44,6 @@
              {% include "Langmenu" %}
        
        <div id="container-right-inner">
-         
-         {% include "Sidebar" %}
-          
        </div> <!-- //container-right-inner -->
      </div> <!-- //container-right -->
      
